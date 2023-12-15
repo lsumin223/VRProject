@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e168403570a1f2418edc5df5cc609ce, type: 3}
+  m_Name: PlayerCharactor1
+  m_EditorClassIdentifier: 
+  playerId: 1
+  playerName: "\uAC70\uBD81\uC774"
+  itemDesc: "\uAE30\uBCF8\uC778 \uAC70\uBD81\uC774\uC785\uB2C8\uB2E4."
+  playerPrefab: {fileID: 5460369739609345338, guid: 3903bfdcc0f8e0347973a18ae6efa5b5, type: 3}
+  flightspeed: 200
+  rollangle: 15
+  pitchangle: 13
+  maxspeed: 720
+  minspeed: 50
+  accelerator: 40
+  breaktime: 50
+  maxboostguage: 160
+  boostspeed: 1200
+  boostRecharge: 16
+  boostDecrease: 14
+  hitCooltime: 2
+  DamageDecreasePercent: 30
